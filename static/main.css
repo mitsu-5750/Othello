@@ -1,0 +1,19 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#table {
+	
+}
+
+.row {
+	display: flex;
+}
+
+.cell {
+	width: 10vh;
+	height: 10vh;
+	border: solid #333 2px;
+	background-color: rgb(130, 182, 138);
+}
