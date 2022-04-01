@@ -45,6 +45,10 @@ class Stone {
 			if (table[this.row + row][this.col + col].status == color)
 				return false;
 
+			if (table[this.row][this.col].status == color)
+				return false;
+
+
 			if (table[this.row + (row * i)][this.col + (col * i)].status == 'air')
 				return false;
 
